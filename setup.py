@@ -30,6 +30,9 @@ setuptools.setup(
     long_description=long_description,
     url="https://github.com/chen19901225/cqh_tail",
     packages=setuptools.find_packages(),
+    install_requires=[
+        "gitpython"
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
